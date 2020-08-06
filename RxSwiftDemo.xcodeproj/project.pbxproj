@@ -16,6 +16,9 @@
 		5C6FB6F224D5BA8900E8272B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6FB6F024D5BA8900E8272B /* LaunchScreen.storyboard */; };
 		5C6FB6FC24D5BFAD00E8272B /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6FB6FB24D5BFAD00E8272B /* UserViewModel.swift */; };
 		5C6FB6FE24D5BFCB00E8272B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6FB6FD24D5BFCB00E8272B /* UserModel.swift */; };
+		5C9DC03424DBC811008DB364 /* Ably.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9DC03324DBC811008DB364 /* Ably.swift */; };
+		5CFEAC8D24D966C400809F69 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEAC8C24D966C400809F69 /* DemoCell.swift */; };
+		5CFEAC8F24DAAE6800809F69 /* Agora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEAC8E24DAAE6800809F69 /* Agora.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		5C6FB6F324D5BA8900E8272B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6FB6FB24D5BFAD00E8272B /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		5C6FB6FD24D5BFCB00E8272B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		5C9DC03324DBC811008DB364 /* Ably.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ably.swift; sourceTree = "<group>"; };
+		5CFEAC8C24D966C400809F69 /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		5CFEAC8E24DAAE6800809F69 /* Agora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agora.swift; sourceTree = "<group>"; };
 		92A1A6C70F5D820C75C1F7D0 /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADA204564A10732BC36011C /* Pods-RxSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CEE9431075789119F7D169D9 /* Pods-RxSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +91,9 @@
 				5C6FB6F324D5BA8900E8272B /* Info.plist */,
 				5C6FB6FB24D5BFAD00E8272B /* UserViewModel.swift */,
 				5C6FB6FD24D5BFCB00E8272B /* UserModel.swift */,
+				5CFEAC8C24D966C400809F69 /* DemoCell.swift */,
+				5CFEAC8E24DAAE6800809F69 /* Agora.swift */,
+				5C9DC03324DBC811008DB364 /* Ably.swift */,
 			);
 			path = RxSwiftDemo;
 			sourceTree = "<group>";
@@ -213,8 +222,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6FB6EA24D5BA8000E8272B /* ViewController.swift in Sources */,
+				5CFEAC8F24DAAE6800809F69 /* Agora.swift in Sources */,
 				5C6FB6FC24D5BFAD00E8272B /* UserViewModel.swift in Sources */,
+				5CFEAC8D24D966C400809F69 /* DemoCell.swift in Sources */,
 				5C6FB6E624D5BA8000E8272B /* AppDelegate.swift in Sources */,
+				5C9DC03424DBC811008DB364 /* Ably.swift in Sources */,
 				5C6FB6FE24D5BFCB00E8272B /* UserModel.swift in Sources */,
 				5C6FB6E824D5BA8000E8272B /* SceneDelegate.swift in Sources */,
 			);
